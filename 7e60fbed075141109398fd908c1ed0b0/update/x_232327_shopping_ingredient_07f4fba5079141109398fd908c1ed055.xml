@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_232327_shopping_ingredient">
+    <x_232327_shopping_ingredient action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <measure>g</measure>
+        <name>Blanched Peas</name>
+        <order>100</order>
+        <sys_class_name>x_232327_shopping_ingredient</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 08:42:57</sys_created_on>
+        <sys_id>07f4fba5079141109398fd908c1ed055</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Blanched Peas</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>x_232327_shopping_ingredient_07f4fba5079141109398fd908c1ed055</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 08:49:33</sys_updated_on>
+        <type>vegetables</type>
+    </x_232327_shopping_ingredient>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var ids = gel('recipes').value;
+
+var ga = new GlideAjax('x_232327_shopping.GetShoppingListAjax');
+ga.addParam('sysparm_name', 'getHTML');
+ga.addParam('sysparm_recipe_ids', ids);
+
+ga.getXMLAnswer(function (response) {
+	//var json = JSON.parse(response);
+	gel('rendered_record').innerHTML = response;
+});
+
+gel('rendered_record').innerHTML = getMessage("Building shopping list...");]]></client_script>
+        <description>Display the shopping list</description>
+        <direct>false</direct>
+        <endpoint>x_232327_shopping_Show Shopping List.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<div style="display:none">
+		<input type="text" id="recipes" name="recipes" value="${sysparm_recipe_ids}"></input>
+	</div>
+
+	<div class="form-horizontal">
+		<div style="width:100%;margin-top:20px;" id="rendered_record"><i>${gs.getMessage('Select an email to preview the template')}</i></div>
+	</div>
+</j:jelly>]]></html>
+        <name>Show Shopping List</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 10:30:25</sys_created_on>
+        <sys_id>b34d4431071541109398fd908c1ed02e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Show Shopping List</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>sys_ui_page_b34d4431071541109398fd908c1ed02e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 10:43:38</sys_updated_on>
+    </sys_ui_page>
+</record_update>

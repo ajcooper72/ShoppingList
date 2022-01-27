@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_232327_shopping_recipe</from_table>
+        <m2m_from_field>recipe</m2m_from_field>
+        <m2m_from_label>Ingredients</m2m_from_label>
+        <m2m_table>x_232327_shopping_m2m_ingredients_recipes</m2m_table>
+        <m2m_to_field>ingredient</m2m_to_field>
+        <m2m_to_label>Recipes</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 08:33:06</sys_created_on>
+        <sys_id>65a27725079141109398fd908c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_232327_shopping_m2m_ingredients_recipes</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>sys_m2m_65a27725079141109398fd908c1ed0fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 08:33:06</sys_updated_on>
+        <to_table>x_232327_shopping_ingredient</to_table>
+    </sys_m2m>
+</record_update>

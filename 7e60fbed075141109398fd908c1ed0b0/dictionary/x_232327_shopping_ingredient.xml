@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Ingredient" max_length="40" name="x_232327_shopping_ingredient" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Measure" max_length="40" name="measure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="g" value="g"/>
+                <element inactive_on_update="false" label="ml" value="ml"/>
+                <element inactive_on_update="false" label="tbsp" value="tbsp"/>
+                <element inactive_on_update="false" label="tsp" value="tsp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="80" name="name" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cupboard" sequence="0" value="cupboard"/>
+                <element inactive_on_update="false" label="Dairy" sequence="1" value="dairy"/>
+                <element inactive_on_update="false" label="Fresh Vegetables" sequence="2" value="vegetables"/>
+                <element inactive_on_update="false" label="Meat" sequence="3" value="meat"/>
+                <element inactive_on_update="false" label="Bakery" sequence="4" value="Bakery"/>
+            </choice>
+        </element>
+    </element>
+</database>

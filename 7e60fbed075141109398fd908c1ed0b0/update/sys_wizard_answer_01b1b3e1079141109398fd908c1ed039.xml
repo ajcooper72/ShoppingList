@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Ingredient</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Ingredient</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">8dfb06411b3130103c2685d5624bcb68</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 08:28:27</sys_created_on>
+        <sys_id>01b1b3e1079141109398fd908c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ingredient</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>sys_wizard_answer_01b1b3e1079141109398fd908c1ed039</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 08:28:27</sys_updated_on>
+        <table/>
+        <target_url>x_232327_shopping_ingredient.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

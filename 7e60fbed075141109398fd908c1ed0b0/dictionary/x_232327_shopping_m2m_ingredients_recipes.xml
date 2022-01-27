@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="M2M Recipe Ingredients" max_length="40" name="x_232327_shopping_m2m_ingredients_recipes" type="collection">
+        <element attributes="encode_utf8=false" label="Ingredient" max_length="32" name="ingredient" reference="x_232327_shopping_ingredient" type="reference"/>
+        <element choice="1" choice_field="measure" choice_table="x_232327_shopping_ingredient" label="Measure" max_length="40" name="measurement" type="choice">
+            <choice/>
+        </element>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Recipe" max_length="32" name="recipe" reference="x_232327_shopping_recipe" type="reference"/>
+        <index name="index">
+            <element name="ingredient"/>
+        </index>
+        <index name="index2">
+            <element name="recipe"/>
+        </index>
+    </element>
+</database>
