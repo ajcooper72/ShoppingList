@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5305fba5079141109398fd908c1ed05c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_232327_shopping_ingredient">
+    <x_232327_shopping_ingredient action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <measure/>
+        <name>Egg</name>
+        <order>100</order>
+        <sys_class_name>x_232327_shopping_ingredient</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 08:43:09</sys_created_on>
+        <sys_id>5305fba5079141109398fd908c1ed05c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Egg</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>x_232327_shopping_ingredient_5305fba5079141109398fd908c1ed05c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 08:50:05</sys_updated_on>
+        <type>dairy</type>
+    </x_232327_shopping_ingredient>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-02 17:02:16</sys_created_on>
+        <sys_id>42d06cf707d501109398fd908c1ed0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Egg</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>sys_metadata_link_42d06cf707d501109398fd908c1ed0a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:02:16</sys_updated_on>
+        <tablename>x_232327_shopping_ingredient</tablename>
+    </sys_metadata_link>
+</record_update>

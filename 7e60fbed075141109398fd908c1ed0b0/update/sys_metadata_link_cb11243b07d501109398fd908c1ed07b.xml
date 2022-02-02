@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dd05b3e5079141109398fd908c1ed0de</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_232327_shopping_m2m_ingredients_recipes">
+    <x_232327_shopping_m2m_ingredients_recipes action="INSERT_OR_UPDATE">
+        <ingredient display_value="Blanched Peas">07f4fba5079141109398fd908c1ed055</ingredient>
+        <measurement>g</measurement>
+        <quantity>320</quantity>
+        <recipe display_value="Salt &amp; Pepper Chicken With Egg Fried Rice">c2447f65079141109398fd908c1ed036</recipe>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 08:42:57</sys_created_on>
+        <sys_id>dd05b3e5079141109398fd908c1ed0de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 08:44:02</sys_updated_on>
+    </x_232327_shopping_m2m_ingredients_recipes>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-02 17:03:25</sys_created_on>
+        <sys_id>cb11243b07d501109398fd908c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>sys_metadata_link_cb11243b07d501109398fd908c1ed07b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:03:25</sys_updated_on>
+        <tablename>x_232327_shopping_m2m_ingredients_recipe</tablename>
+    </sys_metadata_link>
+</record_update>
