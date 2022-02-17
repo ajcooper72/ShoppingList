@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_232327_shopping_ingredient">
+    <x_232327_shopping_ingredient action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <measure>g</measure>
+        <name>Cooked Black Beluga Lentils</name>
+        <order>100</order>
+        <sys_class_name>x_232327_shopping_ingredient</sys_class_name>
+        <sys_created_by>aidan.cooper</sys_created_by>
+        <sys_created_on>2022-02-17 15:11:29</sys_created_on>
+        <sys_id>d007516c073d81109398fd908c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cooked Black Beluga Lentils</sys_name>
+        <sys_package display_value="Shopping List" source="x_232327_shopping">7e60fbed075141109398fd908c1ed0b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">7e60fbed075141109398fd908c1ed0b0</sys_scope>
+        <sys_update_name>x_232327_shopping_ingredient_d007516c073d81109398fd908c1ed0b4</sys_update_name>
+        <sys_updated_by>aidan.cooper</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:11:29</sys_updated_on>
+        <type>cupboard</type>
+    </x_232327_shopping_ingredient>
+</record_update>
